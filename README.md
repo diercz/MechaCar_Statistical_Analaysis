@@ -94,3 +94,5 @@ Use Linear regression and Sample T-tests to test the hypothesis against the popu
 ### Data
 
 Data needed to perform our tests we would want the following variables: Manufacturer, Engine Size, Highway Fuel Efficiency, City Fuel Efficiency, Model, Year, and Cost.  
+
+Completed by: Zach Diercks 7/10/22

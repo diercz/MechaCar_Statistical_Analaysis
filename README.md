@@ -8,14 +8,14 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 
 First we took a look at the correlation Coefficient Matrix to identify variables of interest.  There are no variables that share what is considered a strong correlation (1>= absolute value "r">= 0.7), as revealed in the matrix.
 
-![webpage](cor coeff)
+![webpage](https://github.com/diercz/MechaCar_Statistical_Analaysis/blob/main/Images/Cor%20Coeff.png)
 
 ### Correlation Coefficient Matrix
 
 - "MPG" and "Vehicle Length" share a moderate correlation of 0.61, which is the strongest of the variables provided.  "MPG" and "Ground Clearance" cam in sencond at a weaker correlation level of 0.33.
 - When we square the Vehicle Length coefficient, we get a R-squared of approximately 0.37, which indicates that Vehicle Length will only predict about 37% of MPG observations.  
 
-![webpage](mult lin reg)
+![webpage](https://github.com/diercz/MechaCar_Statistical_Analaysis/blob/main/Images/Mult%20Lin%20Reg.png)
 
 ### Multiple Linear Regression
 
@@ -31,11 +31,11 @@ The dataset is comprised of the PSI Metric for 150 vehicles produced in three lo
 
 #### Total Summary Table
 
-![webpage](total sum DF)
+![webpage](https://github.com/diercz/MechaCar_Statistical_Analaysis/blob/main/Images/total%20sum%20DF.png)
 
 #### Lot Summary Table
 
-![webpage](lot sum DF)
+![webpage](https://github.com/diercz/MechaCar_Statistical_Analaysis/blob/main/Images/lot%20sum%20DF.png)
 
 #### PSI Summary
 
@@ -52,26 +52,26 @@ We are determining if all lots and each individual lot are statistically differe
 
 #### All Manufacturing Lots
 
-![webpage](all man lots)
+![webpage](https://github.com/diercz/MechaCar_Statistical_Analaysis/blob/main/Images/all%20man%20lots.png)
 
 P-Value, 0.06 is above the common level of 0.05.  This means we do not have sufficienct evidence to reject that there is a statistical difference between all lots and the population mean.  The two means are statistically similar.  
 
 #### Lot One
 
-![webpage](lot 1)
+![webpage](https://github.com/diercz/MechaCar_Statistical_Analaysis/blob/main/Images/Lot_1.png)
 
 P-Value, 1 is above the significance level.  This means we do not have sufficent evidence to reject that there is a statistical difference between Lot 1 and the population mean.  The two means are statistically similar.
 
 #### Lot Two
 
-![webpage](Lot 2)
+![webpage](https://github.com/diercz/MechaCar_Statistical_Analaysis/blob/main/Images/Lot_2.png)
 
 P-Value, 0.61 is above the significance level.  This means we do not have sufficent evidence to reject that there is a statistical difference between Lot 2 and the population mean.  The two means are statistically similar.
 
 
 #### Lot Three
 
-![webpage](Lot 3)
+![webpage](https://github.com/diercz/MechaCar_Statistical_Analaysis/blob/main/Images/Lot_3.png)
 
 P-Value, .042 is below the significance level.  This means there is sufficient evidence to reject that there is a statistical difference between Lot 3 and the population mean.  The two means are statistically different.  
 
